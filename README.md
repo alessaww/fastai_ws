@@ -1,8 +1,25 @@
 # fastai_ws
 
-Work during fast.ai class - part1 in Pytorch - http://github.com/fastai/fastai and http://fast.ai/
+My work after following fast.ai course. The fast.ai deep learning library, lessons, and tutorials. [Practical Deep Learning for Coders](http://course.fast.ai)
+
+please use http://forums.fast.ai to further discussions 
+ie [CAM_issue](http://forums.fast.ai/t/run-the-model-on-dataset-get-the-frame-names-for-further-use-with-cam/11992)
+
+Clone fastai using `git`:
+
+```sh
+git clone https://github.com/fastai/fastai.git
+```
+Then clone fastai_ws using `git`:
+
+```sh
+git clone https://github.com/alessaww/fastai_ws.git
+```
+
+Then, `cd` to the fastai_ws folder and create a link to the fastai library:
+
+```sh
+ln -s ../fastai/fastai fastai
+```
 
 For this file CAM_ClassActivationMaps - I use the following weights https://drive.google.com/open?id=1yLoSoEKmft1HWUmjmoB7DxCDSjKnIsN7
-
-You need to clone fastai git clone https://github.com/fastai/fastai.git and follow the instructions there.
-Then you need to clone this repository and inside it you need to create a link to fastai library folder (ie: ln -s ../fastai/fastai fastai).
