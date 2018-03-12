@@ -19,7 +19,13 @@ git clone https://github.com/alessaww/fastai_ws.git
 Then, `cd` to the fastai_ws folder and create a link to the fastai library:
 
 ```sh
-ln -s ../fastai/fastai fastai
+ln -s ../fastai/fastai/ fastai
+```
+
+create another link to the dataset:
+
+```sh
+ln -s ../home/ubuntu/data/ data
 ```
 
 For this file CAM_ClassActivationMaps - I use the following weights https://drive.google.com/open?id=1yLoSoEKmft1HWUmjmoB7DxCDSjKnIsN7
